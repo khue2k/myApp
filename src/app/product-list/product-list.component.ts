@@ -13,9 +13,9 @@ import {NgForOf, NgIf} from "@angular/common";
 })
 export class ProductListComponent {
   public products = [
-    {name: 'Iphone', price: 1000, description: 'this is my iphone'},
-    {name: 'Xiaomi', price: 500, description: 'this is android phone'},
-    {name: 'Samsung', price: 500, description: "this is samsung"}
+    {name: 'Iphone', price: 1000, description: 'This is my iphone'},
+    {name: 'Xiaomi', price: 500, description: 'This is android phone'},
+    {name: 'Samsung', price: 500, description: "This is samsung"}
   ];
   public share = () => {
     alert("product was shared !")
